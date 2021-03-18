@@ -17,7 +17,7 @@ buton.addEventListener("click",function(){
 
   // var pretTotal=pret.value*moneda.value*1.19+(pret.value*(parseInt(factura.value)+parseInt(transport.value))/factura.value);
 
-  var pretTotal=pret.value*(parseInt(factura.value)+(parseInt(transport.value)/moneda.value))/(parseInt(factura.value))*1.19*moneda.value;
+  var pretTotal=pret.value*(parseFloat(factura.value)+(parseFloat(transport.value)/moneda.value))/(parseFloat(factura.value))*1.19*moneda.value;
 
   // console.log(pretTotal.toFixed(2));
   document.getElementById("pretAcasa").value=pretTotal.toFixed(2);
