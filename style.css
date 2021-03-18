@@ -1,0 +1,93 @@
+label{
+  font-size: 35px;
+}
+input{
+  height: 30px;
+  width: 80px;
+font-size: 25px;
+margin: 0px 10px;
+}
+#moneda {
+width: 40px;
+}
+
+#logo{
+  display: flex;
+  height: 100px;
+  width: 500px;
+  margin-bottom: 50px;
+  background-image: url("imagini/logo.png");
+  background-repeat: no-repeat;
+  justify-content: center;
+
+}
+
+.container{
+  display: flex;
+   flex-wrap: wrap; 
+   flex-direction: column;
+  align-items: center; 
+  margin-top: 0px;
+  /* background-image: linear-gradient(to right, #ec018c , #0f75bc); */
+background-color: rgb(42, 165, 159);
+} 
+
+.pretAchizitie{
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  margin: 10px;
+}
+.pretAchizitie #pret{
+  margin-right: 10px;
+}
+
+.valoareFactura {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -117px;
+  margin: 10px;
+}
+.valoareTransport{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -161px;
+  margin: 10px;
+}
+.pretAcasa{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -126px;
+  margin: 10px;
+}
+.pret100{
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+  left: -10px;
+  margin: 10px;
+}
+.pret100 input {
+  margin:0px 10px;
+}
+button{
+margin: 10px;
+  height: 45px;
+  width: 250px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(to right, #ec018c , #0f75bc);
+  cursor: pointer;
+  box-shadow: 2px 2px black;
+
+}
+button:hover{
+  background-image: linear-gradient(to right,#0f75bc ,#ec018c );
+  color: black;
+  font-weight: bold;
+}
